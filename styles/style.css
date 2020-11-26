@@ -215,8 +215,6 @@ main>section article {
 main>section article h2 {
     font-size: 1.4em;
     font-weight: bold;
-    /* font-style: italic;
-    text-decoration: underline; */
     margin: 0 0 0.3em;
 }
 main>section article div {
@@ -704,9 +702,6 @@ html .openProject {
     }
 
     /* Portfolio pagina */
-    /* .portfolio main>article {
-        margin-left: 10vw;
-    } */
     .portfolio main section>article {
         left: 70vw;
     }
@@ -724,7 +719,6 @@ html .openProject {
     .portfolio main>section article.openProject>div:first-of-type>img {
         width: 67.25vw;
         max-width: 52em;
-        /* height: 42.1vw; */
         max-height: none;
     }
     .portfolio main>section article.openProject div {
