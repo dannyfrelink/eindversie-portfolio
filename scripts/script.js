@@ -148,7 +148,12 @@ sectionPortfolio.addEventListener('scroll', tekstPortfolioUitfaden);
 sectionPortfolio.addEventListener('scroll', tekstPortfolioInfaden);
 
 laysArticleImg.addEventListener('click', laysArticleUitklappen);
+laysArticleImg.addEventListener('keypress', laysArticleUitklappen);
 tripplannerArticleImg.addEventListener('click', tripplannerArticleUitklappen);
+tripplannerArticleImg.addEventListener('keypress', tripplannerArticleUitklappen);
 bonusArticleImg.addEventListener('click', bonusArticleUitklappen);
+bonusArticleImg.addEventListener('keypress', bonusArticleUitklappen);
 artisArticleImg.addEventListener('click', artisArticleUitklappen);
+artisArticleImg.addEventListener('keypress', artisArticleUitklappen);
 boterhamArticleImg.addEventListener('click', boterhamArticleUitklappen);
+boterhamArticleImg.addEventListener('keypress', boterhamArticleUitklappen);
