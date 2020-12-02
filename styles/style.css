@@ -40,7 +40,7 @@ body {
     font-family: BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     overflow-x: hidden;
     margin: 0;
-    background-color: rgb(243, 243, 243);
+    background-color: ghostwhite;
 }
 
 :focus {
@@ -53,7 +53,7 @@ header {
     position: fixed;
     top: 0;
     width: 100vw;
-    background-color: rgb(243, 243, 243);
+    background-color: ghostwhite;
 }
 nav {
     position: relative;
@@ -187,12 +187,12 @@ main>article a {
     color: black;
     border: 0.6vw solid black;
     border-radius: 10vw;
-    background-color: lightgrey;
+    background-color: snow;
     padding: 0.5em;
 }
 main>article a:hover,
 main>article a:focus {
-    background-color: darkgray;
+    background-color: lavenderblush;
 }
 
 main>section {
@@ -334,7 +334,7 @@ main>img.pijlUitfaden {
     margin: 0;
     width: 110vw;
     max-width: 54em;
-    background-color: rgb(243, 243, 243)
+    background-color: ghostwhite;
 }
 .portfolio main>section article div a {
     display: none;
@@ -430,7 +430,7 @@ html .openProject {
     width: 100vw;
     max-width: 100vw;
     padding: 0;
-    background-color: rgb(243, 243, 243);
+    background-color: ghostwhite;
     transition: 600ms;
 }
 .portfolio main>section article.openProject >div:first-of-type {
@@ -485,12 +485,12 @@ html .openProject {
     color: black;
     border: 0.6vw solid black;
     border-radius: 10vw;
-    background-color: lightgrey;
+    background-color: snow;
     padding: 0.5em; 
 }
 .portfolio main>section article.openProject>div:nth-of-type(2)>div:last-of-type>a:hover,
 .portfolio main>section article.openProject>div:nth-of-type(2)>div:last-of-type>a:focus {
-    background-color: darkgrey;
+    background-color: lavenderblush;
 }
 .portfolio main>section article.openProject div p:not(:first-of-type) {
     margin-top: 0;
