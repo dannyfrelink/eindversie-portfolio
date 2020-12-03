@@ -148,17 +148,36 @@ main>article {
     width: 87vw;
     margin: 0 6.5vw;
 }
-main>article p {
+main>article>div:first-of-type {
+    display: block;
+    height: 12.2em;
+}
+main>article>div:first-of-type h1 {
+    font-weight: normal;
+    font-size: 1.7em;
+    width: 87vw;
+    max-width: 17ch;
+    margin-bottom: 0.4em;
+}
+main>article>div:first-of-type h1 strong {
+    color: rebeccapurple;
+}
+main>article>div:first-of-type p {
+    width: 87vw;
+    margin: 0;
+    text-align: left;
+}
+main>article>p {
     margin-left: auto;
     max-width: 20.4em;
     text-align: right;
     font-size: 1em;
 }
-main>article p:first-of-type {
+main>article>p:first-of-type {
     margin-top: 0;
-    padding-top: 9.7em;
+    padding-top: 7em;
 }
-main>article p:last-of-type {
+main>article>p:last-of-type {
     margin-bottom: 0.5em;
 }
 main>article img#profielfoto {
@@ -168,7 +187,7 @@ main>article img#profielfoto {
     animation-fill-mode: forwards;
     opacity: 0;
     position: absolute;
-    top: 4em;
+    top: 14.5em;
     left: 1.5vw;
     width: 50vw;
     max-width: 12em;
@@ -187,19 +206,21 @@ main>article a {
     color: black;
     border: 0.6vw solid black;
     border-radius: 10vw;
-    background-color: snow;
+    background-color: lavenderblush;
+    /* background-color: snow; */
     padding: 0.5em;
 }
 main>article a:hover,
 main>article a:focus {
-    background-color: lavenderblush;
+    background-color: rgb(220, 198, 243);
+    /* background-color: lavenderblush; */
 }
 
 main>section {
     z-index: 2;
     position: relative;
     width: 100vw;
-    margin-top: 25.5em;
+    margin-top: 36.5em;
     padding-bottom: 0.5em;
     background-color: white;
 }
@@ -211,9 +232,10 @@ main>section>div.infadenSection {
     opacity: 1;
     transition: ease-in 500ms;
 }
-main>section h1 {
+main>section div>h2 {
     font-size: 2em;
     font-weight: normal;
+    font-style: italic;
     width: 87vw;
     margin: auto;
     padding: 0.6em 0 0.4em;
@@ -222,10 +244,10 @@ main>section article {
     width: 87vw;
     margin: 0.5em auto;
 }
-main>section article h2 {
+main>section article h3 {
     font-size: 1.4em;
     font-weight: bold;
-    margin: 0 0 0.3em;
+    margin: 0 0 0.2em;
 }
 main>section article div {
     display: flex;
@@ -298,6 +320,7 @@ main>img.pijlUitfaden {
 }
 .portfolio main>article>div {
     display: block;
+    height: auto;
 }
 .portfolio main>article.tekstUitfaden {
     opacity: 0;
@@ -557,22 +580,35 @@ html .openProject {
 @media (min-width: 535px) {
 
     /* Over mij pagina */
-    main>article p {
+    main>article>div:first-of-type {
+        height: 12.2em;
+    }
+    main>article>div:first-of-type h1 {
+        font-size: 5.08vw;
+    }
+    main>article>div:first-of-type p {
+        font-size: 2.99vw;
+    }
+
+    main>article>p {
         width: 15em;
         text-align: left;
         font-size: 3vw;
     }
-    main>article p:first-of-type {
-        padding-top: 4em;
+    main>article>p:first-of-type {
+        padding-top: 1em;
     }
-    main>article p:last-of-type {
+    main>article>p:last-of-type {
         margin-bottom: 1em;
     }
     main>article div a {
         position: absolute;
-        top: 11.8em;
+        top: 17em;
     }
 
+    main>section {
+        margin-top: 34.5em;
+    }
     main>section>div>div {
         display: grid;
         grid-template-columns: repeat(auto-fill, 14em);
@@ -614,9 +650,20 @@ html .openProject {
 @media (min-width: 635px) {
 
     /* Over mij pagina */
-    main>article p {
+    main>article>div:first-of-type h1 {
+        font-size: 2.01em;
+    }
+    main>article>div:first-of-type p {
+        font-size: 1.187em;
+        width: 47.3ch;
+    }
+
+    main>article>p {
         font-size: 1.2em;
         margin-left: 33.69vw;
+    }
+    main>article>p:first-of-type {
+        padding-top: 0.8em;
     }
 
     /* Portfolio pagina */
@@ -719,13 +766,13 @@ html .openProject {
     /* Over mij pagina */
     main>article div a {
         right: 5vw;
-        top: 14vw;
+        top: 12em;
     }
     main>article img#profielfoto {
         width: 21.33vw;
         max-width: 17em;
     }
-    main>article p {
+    main>article>p {
         font-size: 2.13vw;
     }
 
@@ -747,11 +794,19 @@ html .openProject {
 @media (min-width: 1000px) {
 
     /* Over mij pagina */
-    main>article p {
+    main>article>div:first-of-type h1 {
+        font-size: 3.216vw;
+    }
+    main>article>div:first-of-type p {
+        font-size: 1.899vw;
+        width: 70vw;
+    }
+
+    main>article>p {
         font-size: 1.33em;
     }
-    main>article p:first-of-type {
-        padding-top: 8.5vw;
+    main>article>p:first-of-type {
+        padding-top: 3vw;
     }
 
     /* Portfolio pagina */
@@ -816,18 +871,25 @@ html .openProject {
 @media (min-width: 1243px) {
 
     /* Over mij pagina */
-    body,
+    /* body,
     html {
         overflow-y: hidden;
-    }
+    } */
 
     main>article div a {
         right: 9vw;
-        top: 6.3em;
+        top: 12.55em;
     }
 
-    main>article p:first-of-type {
-        padding-top: 4.7em;
+    main>article>div:first-of-type h1 {
+        font-size: 2.498em;
+    }
+    main>article>div:first-of-type p {
+        font-size: 1.475em;
+    }
+
+    main>article>p:first-of-type {
+        padding-top: 1.8em;
     }
 
     main>section>div {
@@ -844,14 +906,14 @@ html .openProject {
         grid-template-columns: repeat(3, 27.5vw);
     }
 
-    main>section {
+    /* main>section {
         height: 100vh;
-    }
+    } */
 
-    main>section div h1 {
+    main>section div>h2 {
         font-size: 2.32vw;
     }
-    main>section article h2 {
+    main>section article h3 {
         font-size: 1.8vw;
     }
     main>section article img {

@@ -26,8 +26,8 @@ var boterhamArticleImg = document.querySelector('.portfolio main>section article
 function contentSkillsWeergeven () {
     var scrollY = window.scrollY;
 
-    if (window.screen.width) {
-        if (scrollY >=10) {
+    if (window.screen.width >= 768) {
+        if (scrollY >= 100) {
             skillsOvermij.classList.add('infadenSection');
         }
         else {
@@ -35,7 +35,7 @@ function contentSkillsWeergeven () {
         }
     }
     else {
-        if (scrollY >=100) {
+        if (scrollY >= 200) {
             skillsOvermij.classList.add('infadenSection');
         }
         else {
